@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const UserSessionSchema = new mongoose.Schema({
     userID: {
-        type: Number,
+        type: String,
         default: -1
     },
     timestamp: {
